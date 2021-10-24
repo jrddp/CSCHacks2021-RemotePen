@@ -52,3 +52,9 @@ in front of your webcam and your mouse will move accordingly.
 
 To drag the mouse with the left mouse button held, point to the top of the pen towards the camera so that it sees 
 only the marker on the top side.
+
+# MVP Feedback
+
+If you tested the MVP, please leave some feedback at the following google form (It will only take a second!).
+
+https://forms.gle/STxWfXoTDiVHxtCi7
