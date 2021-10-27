@@ -25,13 +25,17 @@ if __name__ == "__main__":
 
         if render_video:
             image_drawer.draw_corners(img, bboxs)
-            image_drawer.circle_points(img, centers)
+            if ids is not None:
+                for center, id in zip(centers, ids):
+                    color = (0, 0, 255) if id == pen_top_aruco_id else (255, 0, 255)
+                    image_drawer.circle_point(img, center, color=color)
 
         button_down = top_detected and not side_detected
         if true_center is not None:
 
             if render_video:
-                image_drawer.circle_point(img, true_center, color=(255, 255, 0))
+                color = (255, 0, 0) if button_down else (255, 255, 0)
+                image_drawer.circle_point(img, true_center, color=color)
 
             screen_point = mouse_controller.img_point_to_mouse_point(img, true_center)
 
