@@ -53,7 +53,7 @@ if __name__ == "__main__":
             else:
                 image_drawer.draw_text(img, (100, 100), str(screen_point))
 
-            cv2.imshow('img', img)
+            cv2.imshow('Magic Pen', img)
             k = cv2.waitKey(30) & 0xff
 
             if k == 27:
