@@ -6,6 +6,9 @@
 that can be used to draw/control the mouse on non-touchscreen computers
 via the webcam and computer vision.
 
+# Video Overview
+
+[![Demonstration Video](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=O-3eSii8ZkI)
 
 # Team
 
@@ -58,3 +61,8 @@ only the marker on the top side.
 If you tested the MVP, please leave some feedback at the following google form (It will only take a second!).
 
 https://forms.gle/STxWfXoTDiVHxtCi7
+
+
+
+
+Huge thanks to William Muckelroy III for the original idea that inspired this project!
