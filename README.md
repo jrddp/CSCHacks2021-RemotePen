@@ -8,7 +8,7 @@ via the webcam and computer vision.
 
 # Video Overview
 
-[![Demonstration Video](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=O-3eSii8ZkI)
+[![Demonstration Video](https://img.youtube.com/vi/O-3eSii8ZkI/0.jpg)](https://www.youtube.com/watch?v=O-3eSii8ZkI)
 
 # Team
 
